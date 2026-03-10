@@ -1,8 +1,0 @@
-﻿f = open('C:/Users/faroo/Downloads/mockforge-ai/backend/replicate_runner.py', 'r', encoding='utf-8')
-content = f.read()
-f.close()
-content = content.replace('https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0', 'https://router.huggingface.co/hf-inference/models/stabilityai/stable-diffusion-xl-base-1.0')
-f = open('C:/Users/faroo/Downloads/mockforge-ai/backend/replicate_runner.py', 'w', encoding='utf-8')
-f.write(content)
-f.close()
-print('URL updated!')
